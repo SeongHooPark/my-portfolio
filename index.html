@@ -7,101 +7,442 @@
   </head>
   <body>
     <header>
-      <h1>박성후</h1>
-      <img
-        src="images/profile.jpeg"
-        alt="박성후 프로필 사진"
-        class="profile-img"
-      />
-      <p>Product Owner</p>
+      <div class="intro">
+        <div class="photo-frame">
+          <img
+            src="images/profile.jpeg"
+            alt="박성후 프로필 사진"
+            class="profile-img"
+          />
+        </div>
+
+        <div class="intro-text">
+          <p class="greeting">안녕하세요.</p>
+          <p class="tagline">제품이 아니라 성공을 만드는 창업가 (PO/PM)</p>
+          <h1 class="name-line">박성후 입니다.</h1>
+          <hr class="name-accent" />
+
+          <p class="intro-desc d1">
+            스타트업 창업을 시작으로 당근마켓, 자리톡 PO를 거치며 고객의 진짜
+            문제를 발굴하고 비즈니스 임팩트로 연결해 왔습니다.
+          </p>
+          <p class="intro-desc d2">
+            단순한 기능 개선에 머물기보다 제품 구조를 재정의해 폭발적인 성장을
+            이끄는 데 강점이 있습니다. 가설–실험–검증 사이클을 빠르게 회전시키며
+            PMF에 도달하는 과정을 즐기고, 데이터와 사용자의 목소리로 의사결정의
+            정확도를 높입니다.
+          </p>
+          <p class="intro-desc d3">
+            기획과 사업의 관성에 끊임없이 의문을 던지며, 데이터라는 공용 언어로
+            팀의 방향을 정렬합니다. 급변하는 환경에서도 유연하게 최적의 경로를
+            찾아 목표를 달성합니다.
+          </p>
+        </div>
+      </div>
+
       <nav>
         <ul>
-          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#writing">Writing</a></li>
+          <li><a href="#license">License</a></li>
+          <li><a href="#prizes">Prizes</a></li>
           <li><a href="#metrics">Metrics</a></li>
           <li><a href="#skills">Skills</a></li>
-          <li><a href="#testimonials">추천글</a></li>
         </ul>
       </nav>
     </header>
+    <section id="experience">
+      <h2>주요 경험</h2>
+      <p class="section-lead">회사에서 진행한 주요 업무와 성과</p>
 
-    <section id="about">
-      <h2>About me</h2>
-      <p>여기에 자기소개 내용이 들어갑니다.</p>
+      <div class="exp-list">
+        <div class="exp-card">
+          <div class="exp-header">
+            <img
+              src="images/whoandjob.jpg"
+              alt="후앤잡 로고"
+              class="exp-logo"
+            />
+            <div class="exp-heading">
+              <h3>후앤잡 <span class="exp-role">| CEO</span></h3>
+              <p class="exp-date">2021.03 – 2024.03 · 3년</p>
+            </div>
+          </div>
+          <p class="exp-summary">
+            고객과 직업인을 연결하는 1:1 직업체험 매칭 플랫폼 '후앤잡'을 창업해
+            3년간 이끌었습니다. 100명 이상의 인터뷰로 문제를 검증하고 서비스와
+            BM을 구축해 누적매출 5억 원, 가입자 7만 명, 매칭 1,620건을
+            달성했으며 다양한 프로그램에 선정됐습니다. 이후 성장 한계로 전략적
+            종료를 결정했고, 이 경험은 가설–검증–학습 사이클에 대한 관심으로
+            이어져 현재 PO로서의 커리어의 토대가 되었습니다.
+          </p>
+
+          <div class="exp-divider"></div>
+
+          <h4 class="exp-subheading">주요 업무 및 성과</h4>
+          <ul class="exp-bullets">
+            <li>
+              문제 정의를 시작으로 서비스 기획, 서비스 그로스까지 제품 전반
+              리딩, 가격 저항·신뢰 문제 해결을 위한 반복 개선
+            </li>
+            <li>
+              직업 체험 매칭 플랫폼 구축, 체험비+수수료 15% 수익모델 설계,
+              후기·질문 데이터 기반 딥러닝 매칭 고도화(특허등록)
+            </li>
+            <li>
+              누적매출 5억 원, 가입자 7만 명, 매칭 1,620건, 평균 평점 4.4 달성 /
+              국가사업·투자 유치로 3년 운영 자금 확보
+            </li>
+          </ul>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-header">
+            <img src="images/karrot.jpg" alt="당근 로고" class="exp-logo" />
+            <div class="exp-heading">
+              <h3>당근 <span class="exp-role">| Operation Manager</span></h3>
+              <p class="exp-date">2024.04 – 2024.07 · 4개월</p>
+            </div>
+          </div>
+
+          <p class="exp-summary">
+            누적 가입자 3,500만 명의 당근마켓에서 Operation Manager로 근무하며
+            프로덕트 개선, A/B 테스트, 신규 서비스 운영 등 다양한 프로젝트에
+            참여했습니다. 유저 VOC를 정량·정성 데이터로 분석해 문제를 정의하고,
+            PRD 수립부터 실험–검증–회고까지의 사이클을 트래픽이 큰 서비스에서
+            직접 경험했습니다. 신규 기능의 운영정책과 이용약관을 설계해 엣지
+            케이스를 사전에 방지하며 안정적으로 배포하는 역할도 수행했습니다.
+          </p>
+
+          <div class="exp-divider"></div>
+
+          <h4 class="exp-subheading">주요 업무 및 성과</h4>
+          <ul class="exp-bullets">
+            <li>
+              Product 개선, A/B 테스트, 신규 서비스 운영, 기존 기능 리뉴얼 등
+              다양한 프로젝트에 참여
+            </li>
+            <li>
+              유저 VOC 수집·분석으로 운영 문제를 파악해 자동룰을 수립, 장기적
+              운영 자동화에 기여
+            </li>
+            <li>
+              기능 개선점을 도출해 PRD를 수립하고, 실험–검증–레슨런 과정을
+              트래픽이 큰 서비스에서 경험
+            </li>
+          </ul>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-header">
+            <img src="images/zari.jpg" alt="자리톡 로고" class="exp-logo" />
+            <div class="exp-heading">
+              <h3>자리톡 <span class="exp-role">| Product Owner</span></h3>
+              <p class="exp-date">2024.08 – 현재 · 2년 2개월</p>
+            </div>
+          </div>
+
+          <p class="exp-summary">
+            500만 유저가 사용하는 임대관리 앱 '자리톡'에 신규 중개서비스의 PO로
+            합류해, 부동산 시장에서 0 to 1을 만들어가고 있습니다. 현상파악부터
+            가설수립, 실험, 레슨런까지의 과정을 1-Pager로 구조화해 팀 협업을
+            리드하며 공급–수요–중개 문제를 해결해 합류 후 약 5배의 성장을
+            이끌었습니다. 신규 BM '자리스테이'의 0 to 1도 함께 리드하며 사업
+            기획부터 제품 개발, 조직 운영까지 스타트업의 전 과정을 이끌고
+            있습니다.
+          </p>
+
+          <div class="exp-divider"></div>
+
+          <h4 class="exp-subheading">주요 업무 및 성과</h4>
+          <ul class="exp-bullets">
+            <li>
+              A/B 테스트와 OKR 기반 의사결정으로 공급–수요–중개 문제를 해결해
+              5배 성장 견인, 시장에서 차별화된 BM 수립
+            </li>
+            <li>
+              단기임대 사업 기획, 제품 개발, 조직 운영까지 A to Z를 리드, 배포
+              직후 매출을 창출하며 매달 J-curve 성장지표를 만드는 중
+            </li>
+            <li>
+              AI 기반 매물확보·상세설명 자동화로 매물등록 전환율 향상 및 공공
+              API 활용한 부동산 정보 접목으로 콘텐츠 다양화
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <section id="projects">
-      <h2>프로덕트 경험 / 케이스 스터디</h2>
-      <div class="card-grid">
-        <div class="card">
-          <h3>프로젝트 A</h3>
-          <p>여기에 프로젝트 A에 대한 짧은 설명이 들어갑니다.</p>
+      <h2>프로젝트</h2>
+      <div class="project-feature">
+        <div class="project-meta">
+          <span class="project-duration">3년</span>
+          <div>
+            <h3>[프로젝트명] · Product Owner</h3>
+            <p class="project-date">2025.06 ~ 2025.09</p>
+          </div>
         </div>
-
-        <div class="card">
-          <h3>프로젝트 B</h3>
-          <p>여기에 프로젝트 B에 대한 짧은 설명이 들어갑니다.</p>
-        </div>
-
-        <div class="card">
-          <h3>프로젝트 C</h3>
-          <p>여기에 프로젝트 C에 대한 짧은 설명이 들어갑니다.</p>
+        <p class="project-desc">[프로젝트에 대한 설명이 들어갑니다.]</p>
+        <div class="project-images">
+          <div class="project-image-placeholder">이미지 1</div>
+          <div class="project-image-placeholder">이미지 2</div>
         </div>
       </div>
     </section>
 
-    <section id="metrics">
-      <h2>성과 / 지표</h2>
+    <section id="writing">
+      <h2>Writing</h2>
+      <div class="writing-row">
+        <a
+          class="writing-item"
+          href="https://brunch.co.kr/brunchbook/startup-first"
+          target="_blank"
+        >
+          <span class="writing-icon">📕</span>
+          <h3>스타트업은 처음이라</h3>
+          <p>
+            창업자가 마주하는 법인·지분·투자·스톡옵션 등 '회사의 구조'를 정리한
+            브런치북 시리즈
+          </p>
+          <span class="writing-cta">브런치에서 보기 →</span>
+        </a>
+
+        <a
+          class="writing-item"
+          href="https://brunch.co.kr/magazine/startuphoo"
+          target="_blank"
+        >
+          <span class="writing-icon">📗</span>
+          <h3>IT 회사이야기</h3>
+          <p>
+            스타트업·창업·경영을 주제로, IT 회사 안에서 겪은 현장의 이야기를
+            담은 브런치북
+          </p>
+          <span class="writing-cta">브런치에서 보기 →</span>
+        </a>
+
+        <a
+          class="writing-item"
+          href="https://brunch.co.kr/magazine/businessanatomy"
+          target="_blank"
+        >
+          <span class="writing-icon">📘</span>
+          <h3>비즈니스 해부학</h3>
+          <p>
+            여러 회사의 비즈니스 구조와 원리를 하나씩 뜯어보고 분석하는 브런치북
+          </p>
+          <span class="writing-cta">브런치에서 보기 →</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="License">
+      <h2>자격증</h2>
+      <ul class="simple-list">
+        <li>
+          <span class="item-name">정보처리기사 (합격 예정)</span
+          ><span class="item-org">한국산업인력공단</span>
+        </li>
+        <li>
+          <span class="item-name">SQLD</span
+          ><span class="item-org">한국산업인력공단</span>
+        </li>
+        <li>
+          <span class="item-name">공인중개사</span
+          ><span class="item-org">한국산업인력공단</span>
+        </li>
+        <li>
+          <span class="item-name">ITQ 한글</span
+          ><span class="item-org">KPC 자격</span>
+        </li>
+        <li>
+          <span class="item-name">ITQ 엑셀</span
+          ><span class="item-org">KPC 자격</span>
+        </li>
+        <li>
+          <span class="item-name">ITQ 파워포인트</span
+          ><span class="item-org">KPC 자격</span>
+        </li>
+        <li>
+          <span class="item-name">ITQ Master</span
+          ><span class="item-org">KPC 자격</span>
+        </li>
+        <li>
+          <span class="item-name">Google Analytics Certification</span
+          ><span class="item-org">Google</span>
+        </li>
+        <li>
+          <span class="item-name">TOEIC 865</span
+          ><span class="item-org">YBM</span>
+        </li>
+        <li>
+          <span class="item-name">TOEIC SPEAKING LV6</span
+          ><span class="item-org">YBM</span>
+        </li>
+        <li>
+          <span class="item-name">마케팅기획전문가</span
+          ><span class="item-org">한국산업인력공단</span>
+        </li>
+        <li>
+          <span class="item-name">텔레마케팅관리사</span
+          ><span class="item-org">한국산업인력공단</span>
+        </li>
+        <li>
+          <span class="item-name">생산자동화기능사</span
+          ><span class="item-org">한국산업인력공단</span>
+        </li>
+        <li>
+          <span class="item-name">전기기능사</span
+          ><span class="item-org">한국산업인력공단</span>
+        </li>
+        <li>
+          <span class="item-name">공유압기능사</span
+          ><span class="item-org">한국산업인력공단</span>
+        </li>
+      </ul>
+    </section>
+
+    <section id="Prizes">
+      <h2>수상</h2>
+      <ul class="simple-list">
+        <li>
+          <span class="item-name">2026 모두의 창업, 멘토</span
+          ><span class="item-org">중소벤처기업부</span>
+        </li>
+        <li>
+          <span class="item-name">AI Native Camp 1기 수료</span
+          ><span class="item-org">낭만벤처스</span>
+        </li>
+        <li>
+          <span class="item-name">ICT INNOVATION 사업 선정</span
+          ><span class="item-org">ICT 테크노파크</span>
+        </li>
+        <li>
+          <span class="item-name">Social Impact Changers 선정</span
+          ><span class="item-org">대전창조경제혁신센터</span>
+        </li>
+        <li>
+          <span class="item-name">공공-민간 엑셀러레이터 사업 선정</span
+          ><span class="item-org">BTB벤처스</span>
+        </li>
+        <li>
+          <span class="item-name">창업 교육 No.1 '언더독스' 멘토</span
+          ><span class="item-org">(주) Underdogs</span>
+        </li>
+        <li>
+          <span class="item-name">CNU INNO Demo day, 1위 대상</span
+          ><span class="item-org">대전광역시</span>
+        </li>
+        <li>
+          <span class="item-name">청년정책우수기업 표창 수상</span
+          ><span class="item-org">대전광역시</span>
+        </li>
+        <li>
+          <span class="item-name">START-UP NEST, 10기 선정</span
+          ><span class="item-org">신용보증기금</span>
+        </li>
+        <li>
+          <span class="item-name">2021년 도전 K-START UP 본선</span
+          ><span class="item-org">K-START UP</span>
+        </li>
+        <li>
+          <span class="item-name">청년창업사관학교 11기 '우수'</span
+          ><span class="item-org">중소기업벤처진흥공단</span>
+        </li>
+        <li>
+          <span class="item-name">창업성공패키지 선정</span
+          ><span class="item-org">중소기업벤처진흥공단</span>
+        </li>
+      </ul>
+    </section>
+    <section id="metrics" class="no-frame">
+      <h2>성과/지표</h2>
       <div class="metric-grid">
         <div class="metric">
-          <p class="metric-number">32%</p>
-          <p class="metric-label">전환율 개선</p>
+          <img src="images/zari.jpg" alt="자리톡 로고" class="metric-logo" />
+          <p class="metric-number">21%p</p>
+          <p class="metric-label">부동산 매물<br />등록률 개선</p>
         </div>
 
         <div class="metric">
-          <p class="metric-number">15만+</p>
-          <p class="metric-label">누적 사용자</p>
+          <img src="images/zari.jpg" alt="자리톡 로고" class="metric-logo" />
+          <p class="metric-number">5%p</p>
+          <p class="metric-label">자리스테이<br />결제전환율 개선</p>
         </div>
 
         <div class="metric">
-          <p class="metric-number">4.8</p>
-          <p class="metric-label">앱스토어 평점</p>
+          <img src="images/zari.jpg" alt="자리톡 로고" class="metric-logo" />
+          <p class="metric-number">32.7%p</p>
+          <p class="metric-label">자리스테이<br />호스트 응답률 개선</p>
+        </div>
+
+        <div class="metric">
+          <img src="images/karrot.jpg" alt="당근 로고" class="metric-logo" />
+          <p class="metric-number">18%p↓</p>
+          <p class="metric-label">예약관리<br />VOC 문의 감소</p>
+        </div>
+
+        <div class="metric">
+          <img src="images/karrot.jpg" alt="당근 로고" class="metric-logo" />
+          <p class="metric-number">10%</p>
+          <p class="metric-label">중고차 구매동행<br />신청율</p>
+        </div>
+
+        <div class="metric">
+          <img src="images/karrot.jpg" alt="당근 로고" class="metric-logo" />
+          <p class="metric-number">11%</p>
+          <p class="metric-label">중고차 대리진단<br />신청율</p>
+        </div>
+
+        <div class="metric">
+          <img
+            src="images/whoandjob.jpg"
+            alt="후앤잡 로고"
+            class="metric-logo"
+          />
+          <p class="metric-number">8.7%p</p>
+          <p class="metric-label">직업체험<br />구매전환율 개선</p>
+        </div>
+
+        <div class="metric">
+          <img
+            src="images/whoandjob.jpg"
+            alt="후앤잡 로고"
+            class="metric-logo"
+          />
+          <p class="metric-number">3배</p>
+          <p class="metric-label">그로스 프로젝트<br />매출 성장</p>
         </div>
       </div>
-    </section>
-
-    <section id="skills">
-      <h2>보유 스킬</h2>
-      <div class="skill-list">
-        <span class="skill-tag">Jira</span>
-        <span class="skill-tag">Figma</span>
-        <span class="skill-tag">SQL</span>
-        <span class="skill-tag">Amplitude</span>
-        <span class="skill-tag">A/B 테스트</span>
-        <span class="skill-tag">프로덕트 로드맵</span>
-      </div>
-    </section>
-
-    <section id="testimonials">
-      <h2>추천글</h2>
-
-  <div class="testimonial-list">
-    <div class="testimonial">
-      <p class="testimonial-text">"함께 일한 팀원이 남긴 추천글이 여기에 표시됩니다."</p>
-      <p class="testimonial-author">- 이름 / 직책</p>
-    </div>
-  </div>
-</section>
-      <p>여기에 나중에 백엔드에서 불러온 추천글이 들어갑니다.</p>
     </section>
 
     <footer>
-      <h2>연락처</h2>
-      <p>
-    <a href="mailto:your-email@example.com">이메일</a> ·
-    <a href="https://www.linkedin.com/in/성후-박-a899b8227" target="_blank">LinkedIn</a>
-    <a href="#" target="_blank">이력서 (PDF)</a>
-  </p>
+      <h2>Contact</h2>
+      <p class="section-lead">궁금한 점이 있다면 편하게 연락주세요</p>
+
+      <div class="contact-grid">
+        <a class="contact-item" href="kime406@navr.com">
+          <span class="contact-icon">✉️</span>
+          <span class="contact-text">
+            <span class="contact-value">kime406@naver.com</span>
+            <a class="contact-item" href="https://mail.google.com/mail/?view=cm&fs=1&to=본인이메일@gmail.com" target="_blank">
+          </span>
+        </a>
+
+        <a
+          class="contact-item"
+          href="https://www.linkedin.com/in/성후-박-a899b8227"
+          target="_blank"
+        >
+          <span class="contact-icon">🔗</span>
+          <span class="contact-text">
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">프로필 보기</span>
+          </span>
+        </a>
+      </div>
     </footer>
   </body>
 </html>
